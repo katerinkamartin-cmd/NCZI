@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Príprava: Dátový Analytik NCZI</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; background-color: #f4f7f9; }
+        header { background: #004a99; color: #fff; padding: 2rem; text-align: center; }
+        .container { width: 85%; margin: auto; overflow: hidden; padding: 2rem; }
+        .card { background: #fff; padding: 1.5rem; margin-bottom: 2rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { color: #004a99; border-bottom: 2px solid #004a99; padding-bottom: 10px; }
+        table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+        table, th, td { border: 1px solid #ddd; }
+        th, td { padding: 12px; text-align: left; }
+        th { background-color: #004a99; color: white; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+        .stat-box { display: flex; justify-content: space-around; margin-bottom: 2rem; }
+        .stat-item { background: #e7f3ff; padding: 1rem; border-radius: 5px; text-align: center; flex: 1; margin: 0 10px; border-top: 5px solid #004a99; }
+        .highlight { font-weight: bold; color: #d9534f; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Príprava na pozíciu: Dátový Analytik (NCZI)</h1>
+    <p>Analýza zdravotníckych dát a štatistické prehľady</p>
+</header>
+
+<div class="container">
+
+    <section class="card">
+        <h2>📊 Kľúčové štatistiky zdravotníctva (Simulované)</h2>
+        <div class="stat-box">
+            <div class="stat-item"><h3>85%</h3><p>Digitalizácia receptov</p></div>
+            <div class="stat-item"><h3>1.2M</h3><p>Analýz diagnóz ročne</p></div>
+            <div class="stat-item"><h3>< 2s</h3><p>Odozva DB dopytov</p></div>
+        </div>
+    </section>
+
+    <section class="card">
+        <h2>📚 Slovník pojmov pre analytika v NCZI</h2>
+        <table>
+            <tr>
+                <th>Pojem</th>
+                <th>Vysvetlenie pre pohovor</th>
+            </tr>
+            <tr>
+                <td><strong>e-Zdravie</strong></td>
+                <td>Národný informačný systém, ktorého dáta budeš analyzovať.</td>
+            </tr>
+            <tr>
+                <td><strong>MKCH-10</strong></td>
+                <td>Medzinárodná klasifikácia chorôb. Dáta sú kódované (napr. I21 je Infarkt).</td>
+            </tr>
+            <tr>
+                <td><strong>ETL Proces</strong></td>
+                <td>Extract, Transform, Load. Ako dostaneš dáta z nemocníc do tvojho reportu.</td>
+            </tr>
+            <tr>
+                <td><strong>SQL Join</strong></td>
+                <td>Spájanie tabuliek (napr. spojiť pacienta s jeho diagnózou cez ID).</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="card">
+        <h2>🔍 Príklad dátovej analýzy (Power BI / Python výstup)</h2>
+        <p>Analýza trendu návštevnosti odborných ambulancií za posledných 6 mesiacov:</p>
+        <div style="background: #eee; height: 200px; display: flex; align-items: flex-end; justify-content: space-around; padding: 10px;">
+            <div style="background: #004a99; width: 10%; height: 40%;">Jan</div>
+            <div style="background: #004a99; width: 10%; height: 55%;">Feb</div>
+            <div style="background: #004a99; width: 10%; height: 50%;">Mar</div>
+            <div style="background: #004a99; width: 10%; height: 75%;">Apr</div>
+            <div style="background: #004a99; width: 10%; height: 90%;">Máj</div>
+            <div style="background: #004a99; width: 10%; height: 85%;">Jún</div>
+        </div>
+        <p><small>* Graf znázorňuje nárast efektivity po zavedení elektronického objednávania.</small></p>
+    </section>
+
+</div>
+
+</body>
+</html>
